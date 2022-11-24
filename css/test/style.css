@@ -1,0 +1,135 @@
+:root {
+  --white: #ffffff;
+  --accent: #ecb942;
+  --black: #000000;
+  --btn-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-white);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  background-image: url('../../img/intro-bg.png');
+  background-repeat: no-repeat;
+}
+
+.button {
+  width: 233px;
+  background-color: var(--accent);
+  box-shadow: var(--btn-shadow);
+  border-radius: 8px;
+  padding: 14px 46px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.link {
+  color: var(--black);
+  font-weight: 600;
+}
+
+.button-secondary {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.main-nav {
+  width: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start; /* дефолтное свойство, выравнивание по левой части */
+  align-items: center; /* вертикальное выравнивание */
+  gap: 40px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-around; //горизонтальное выравнивание
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.intro {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'title .'
+    'slogan .'
+    'button-group .'; */
+
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.intro-title {
+  /* grid-area: title; */
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.intro-slogan {
+  /* grid-area: slogan; */
+}
+
+.intro-button-group {
+  /* grid-area: button-group; */
+  margin: 80px 0;
+}
+
+.section-title {
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.tasks-list-item-title {
+  font-size: 36px;
+  line-height: 44px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.tasks-list-item-info {
+}
+
+.about-text {
+  font-weight: 600;
+}
+
+.offer {
+  background-image: url('../img/promo-bg.png');
+}
+
+.list-style {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 21px;
+}
